@@ -1,0 +1,69 @@
+<h1>Tool Design for Router Bits</h1>
+
+<h2>Router Bit Terminology</h2>
+<div class="media_box_wrap">
+<div class="image_box">
+	<img src="lessons/images/lesson5_bitdimensions_web.jpg" alt="router bit dimensions"/>
+    <div class="caption">Image Source: adapted from http://www.endmill.com</div>     
+</div>
+</div>
+
+<h2>Flutes</h2>
+
+<div class="media_box_wrap">
+<div class="image_box">
+	<img src="lessons/images/lesson5_flutedesign_web.jpg" alt="flute design"/>
+    <div class="caption">Image Source: adapted from http://vortextool.com</div>     
+</div>
+</div>
+
+<p>Flutes are the grooved, or recessed, portion of the router bit.&nbsp; The number of flutes determines the number of knives distributed around the circumference of a tool.&nbsp; More flutes means more cutting edges, generally resulting in a higher quality cut because there are more cuts per unit distance.&nbsp; Fewer flutes means there will be less knife cuts per unit distance, resulting in a rougher surface.</p>
+<p>It is important to realize that as the number of cutting edges increases with more flutes, the friction generated increases as well.&nbsp; The excessive heat could damage the tool, so care must be taken to run the machine at the appropriate feed speed and spindle speed.&nbsp; </p>
+<p>If we look at the circular cross section of the tool, as we increase the number of flutes, the ratio of empty groove (or gullet) space to tool material decreases.&nbsp; The empty space is required to remove the chips.&nbsp; Since chips are the primary method for carrying away the heat generated, we cannot simply say that more flutes is always better.&nbsp; </p>
+<h2>Fixed vs. Removable Blades</h2>
+
+<div class="media_box_wrap">
+<div class="image_box">
+	<img src="lessons/images/lesson5_fixedvsinsert_web.jpg" alt="fixed vs insert blade"/>
+    <div class="caption">Image Source: adapted from http://vortextool.com</div>    
+</div>
+</div>
+
+<p>Both fixed and removable blades (sometimes referred to as insert blades) are common in the industry, but have distinct advantages and disadvantages. Fixed blades have the obvious advantage of never coming loose from the tool body. Insert blades should not come loose either, but if there is debris in the blade housing or if the blade is improperly installed, failure can result.&nbsp; (10)</p>
+<p>Fixed blade tools have the disadvantage of decreasing tool diameter. Wear will slowly erode the knife edge, causing the tool diameter to change with its life. This is a problem because the CAM file the CNC machine uses has a specific diameter setting. If the real diameter does not match the tool’s diameter in the CAM file, very undesirable cutting results can occur. In order to avoid this, care must be taken to periodically measure the fixed blade tool with a digital caliper and adjust the tool diameter setting in the CAM file to match. &nbsp;(10)</p>
+<p>The primary advantage of removable blades is that they do not change the tool’s diameter over time because they are never sharpened. When the blade becomes worn, it is simply thrown away and replaced.&nbsp; This also greatly simplifies tool maintenance.&nbsp; The newly inserted blade is exactly the same as the old one. This is feature particularly useful when doing profiled work where any slight change in profile geometry renders the workpiece worthless. One of the big disadvantages of removable blades is that they do not usually come in helixes (spirals). Spiral bits have many advantages over straight bits and will be discussed in the following section.&nbsp;(10) </p>
+<h2>Straight vs. Spiral Bits</h2>
+
+<div class="media_box_wrap">
+<div class="image_box">
+	<img src="lessons/images/lesson5_straightvsspiral_web.jpg" alt="straight vs spiral bit"/>
+    <div class="caption">Image Source: adapted from http://vortextool.com</div>    
+</div>
+</div>
+
+<p>Spiral bits outperform straight bits in almost every category. The spiral provides a longer cutting edge and an oblique cutting angle.&nbsp; This reduces cutting forces which improves tool life and yields a smoother cut. (10)</p>
+<p>However, straight bits do still offer some advantages. One advantage is that straight bits are easier and less costly to sharpen. Helical sharpening can get very complicated and needs to be outsourced to a company specializing in tooling. Another advantage is that straight bits can utilize removable knives to maintain consistent cutting diameters. </p>
+
+<h2>Upcut, Downcut, and Multicut</h2>
+
+<div class="media_box_wrap">
+<div class="image_box">
+	<img src="lessons/images/lesson5_spiraltype_web.jpg" alt="Spiral Type"/>
+    <div class="caption">Blue arrows represent tool rotation, red arrows represent chip flow.</div>    
+</div>
+</div>
+
+<p>The upcut configuration directs chips upwards. This improves the chip flow away from the tool in the situation where toolpaths do not go all the way through the material.&nbsp; The improved chip flow subsequently improves heat transfer.&nbsp; The disadvantage of the upcut is that it tends to lift the material up. This has two effects.&nbsp; First, it can cause chipping on top side of the workpiece.&nbsp; Second, it can lift the material off the machine table if vacuum pressure is insufficient or the piece is very small. (10)&nbsp; </p>
+<p>The downcut is opposite the upcut and moves chips down into the workpiece. Downcut bits exert more pressure downwards making it good for smaller pieces. Also, it will reduce or eliminate chipping on the upper surface. (3) The disadvantage is downcuts force chips downwards which increases friction if the toolpath does not go completely through the material. This can reduce both feed speed and tool life.</p>
+<p>The multicut (or compression) bit has an alternating shear, with upcut on the bottom portion of the bit and downcut on the top portion of the bit. This means that the shear is orientated to compress both the upper and lower surfaces of the workpiece, resulting in excellent cut quality on both sides. (3) Chip removal performance with this type is neutral. (10) The upcut portion of the bit is generally only the lower third or fourth of the tool, with the upper downcut portion constituting the majority of the cutting edges.&nbsp; The downside to the multicut is that they tend to be more expensive and complicated to sharpen.</p>  
+
+<h2>Chipbreakers</h2>
+
+<div class="media_box_wrap">
+<div class="image_box">
+	<img src="lessons/images/lesson5_chipbreaker_web.jpg" alt="chipbreaker"/>
+    <div class="caption">Image Source: http://vortextool.com</div>    
+</div>
+</div>
+
+<p>Chipbreakers are serrations along the knife edge. These small notches break up the stresses that form on the edge allowing for faster feedspeeds and increased tool life. This design also breaks the chips into smaller pieces, possibly improving chip removal. Keep in mind, the serrations could result in numerous tiny notches on the surface, which may or may not be acceptable depending on the circumstance. (6)</p>

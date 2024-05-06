@@ -1,0 +1,102 @@
+<!--
+//////////////////////////////////////////////////////////////////////////
+// The LearnCNC Game lesson browser.
+// 
+// This source code is licensed under the LGPL.
+// 
+// Please keep this header intact when redistributing 
+// original/modified code.
+//
+// Authors: Richard Hewitt, Nikita Donets, Jason Beatch
+// LearnCNC.org
+//////////////////////////////////////////////////////////////////////////
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+  <meta name="author" content="LearnCNC.org" />
+  <meta name="keywords" content="learn, CNC, code, G-Code, simulator, game" />
+  <meta name="description" content="Learn the basics of CNC machining using this free 3D game!" />
+  <meta name="robots" content="all" />
+
+  <title>CNC Lesson Browser - LearnCNC.org</title>
+
+  <script type='text/javascript' src='external_libs/jquery/jquery-1.3.2.min.js'></script>
+  <script type='text/javascript' src='external_libs/jquery/jquery.url.packed.js'></script>
+  <!--<script type='text/javascript' src='external_libs/swf_player/swfobject.js'></script>-->
+
+  <script type='text/javascript' src='js/lessons.js'></script>
+  <script type='text/javascript' src='js/global.js'></script>
+
+  <link rel="stylesheet" href="css/reset.css" type="text/css" />
+
+  <link rel="stylesheet" href="css/global.css" type="text/css" />
+  <link rel="stylesheet" href="css/lessons.css" type="text/css" />
+
+</head>
+
+<body>
+
+  <div id="header">
+    <img id="browser_title_img" src="img/lesson_browser_title.png?" />
+    <img id="close_icon" src="img/close_icon.png?" />
+  </div>
+
+  <div id="lesson_list">
+    <div id="lesson_list_container">
+      <a id="lesson0_link" class="" href="index.html?lesson=0&page=1">
+        <div class="lesson_number">Introduction</div>
+        <div class="lesson_descr">The LearnCNC Project</div>
+      </a>
+      <a id="lesson1_link" class="" href="index.html?lesson=1&page=1">
+        <div class="lesson_number">Lesson 1</div>
+        <div class="lesson_descr">Electrical Components of CNC</div>
+      </a>
+      <a id="lesson2_link" class="" href="index.html?lesson=2&page=1">
+        <div class="lesson_number">Lesson 2</div>
+        <div class="lesson_descr">Mechanical Components of CNC</div>
+      </a>
+      <a id="lesson3_link" class="" href="index.html?lesson=3&page=1">
+        <div class="lesson_number">Lesson 3</div>
+        <div class="lesson_descr">Cutting Applications</div>
+      </a>
+      <a id="lesson4_link" class="" href="index.html?lesson=4&page=1">
+        <div class="lesson_number">Lesson 4</div>
+        <div class="lesson_descr">Tooling Physics</div>
+      </a>
+      <a id="lesson5_link" class="" href="index.html?lesson=5&page=1">
+        <div class="lesson_number">Lesson 5</div>
+        <div class="lesson_descr">Tool Design</div>
+      </a>
+      <a id="lesson6_link" class="" href="index.html?lesson=6&page=1">
+        <div class="lesson_number">Lesson 6</div>
+        <div class="lesson_descr">Tool Metallurgy</div>
+      </a>
+    </div>
+  </div>
+
+  <div id="lesson_content_wrap">
+
+    <div class="page_bar_wrap">
+      <div class="page_bar" id="top_page_bar">
+      </div>
+    </div>
+
+    <div id="lesson_content">
+    </div>
+
+    <div class="page_bar_wrap">
+      <div class="page_bar" id="bot_page_bar">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

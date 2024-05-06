@@ -1,0 +1,108 @@
+p, ul, ol
+{
+	line-height: 1.4em;
+	margin: 1em 0;
+}
+
+p
+{
+	text-align: justify;
+}
+
+h1
+{
+	line-height: 1.3em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2, h3
+{
+	margin-bottom: 1em;
+	margin-top: 1em;
+	line-height: 1.3em;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: left;
+}
+
+ul, ol
+{
+	margin-left: 30px;
+}
+
+li
+{
+	margin: 0.5em 0;
+	list-style-position: outside;
+}
+
+ul li
+{
+	list-style-type: disc;
+}
+
+ol li
+{
+	list-style-type: decimal;
+}
+
+#lesson_content
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 14px;
+}
+
+div.flash_player div.no_flash_found
+{
+	background-color: #FABABA;
+	border: 1px solid #D8000C;
+	color: #DA2125;
+	padding: 10px;
+	font-weight: bold;
+	width: inherit;
+	height: inherit;
+}
+
+.media_box_wrap
+{
+	text-align: center;
+	margin: 1em 0;
+}
+
+.video_box
+{
+	
+}
+
+.video_box embed
+{
+	max-width: 100%;
+}
+
+.image_box
+{
+
+}
+
+.image_box img
+{
+	max-width: 100%;
+}
+
+.caption
+{
+	font-size: 14px;
+	margin-top: 4px;
+	line-height: 1.6em;
+	font-style: italic;
+}
+
+.image_box .caption
+{
+	margin-top: 3px;
+}
