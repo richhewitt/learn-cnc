@@ -76,7 +76,8 @@ div.flash_player div.no_flash_found
 
 .video_box
 {
-	
+	aspect-ratio: 16 / 9;
+	width: 100%;
 }
 
 .video_box embed
