@@ -16,7 +16,7 @@ If you find the interface super retro-looking and video quality low, remember, i
 https://richhewitt.com/learn-cnc/index.html
 
 # Acknowledgments 
-Developed in 2009 with generous funding from [BC Campus](https://bccampus.ca/)
+Developed in 2008/09 with generous funding from [BC Campus](https://bccampus.ca/)
 
 Development Team:
 - Richard Hewitt - Project Manager, Daydreamer
