@@ -2,7 +2,7 @@
 ![LearnCNC screenshot 1](https://github.com/richhewitt/learn-cnc/blob/main/screenshots/LearnCNC1.jpg)
 
 # Background
-It began with boredom.  I was sitting in my CNC machining courses, blankly staring forward.  The course material was technical and 3D in nature, yet was being taught with an overhead projector.  I began daydreaming of a different, more fun way to present the material.  Over the next few weeks, with encourgement a mentor, I wrote up a $50K grant proposal for an open source 3D learning environment on CNC machines.  1 rejection and several months later, BCCampus accepted with generous funding!
+It began with boredom.  I was sitting in my CNC machining courses, blankly staring forward.  The course material was technical and 3D in nature, yet was being taught with an overhead projector!  I began daydreaming of a different, more fun way to present the material.  Over the next few weeks, with encourgement a mentor, I wrote up a $50K grant proposal for an open source 3D learning environment on CNC machines.  1 rejection and several months later, BCCampus accepted with generous funding!
 
 Over the next month, Robert (a fellow student and colleague) and I interviewed several students.  We hired Nik (software engineer) and Jason (3D modeller and animator).  Our team of 4 UBC students built The LearnCNC project over the next 8 months in our spare time.
 
